@@ -88,3 +88,16 @@ decimal.addEventListener('click', (event) => {
     inputDecimal(event.target.value);
     updateScreen(currentNumber);
 });
+
+const inputPercent = (percent) => {
+    if(currentNumber.includes('%')) {
+        return;
+    }
+    currentNumber += percent;
+}
+
+const percent = document.querySelector('.percent');
+percent.addEventListener('click', (event) => {
+    inputPercent(event.target.value);
+    updateScreen(currentNumber);
+});

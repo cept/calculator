@@ -54,7 +54,7 @@ button:hover {
     background-color: orange;
 }
 
-.operator, .decimal {
+.operator, .decimal, .percent {
     background-color: brown;
     border-radius: 4px 0 0 4px;
 }
